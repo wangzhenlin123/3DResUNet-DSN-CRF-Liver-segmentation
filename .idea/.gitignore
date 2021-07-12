@@ -1,0 +1,5 @@
+# Default ignored files
+/workspace.xml
+
+# CodeStream ignored files
+/../../3D-Post-Liver-segmentation\.idea/codestream.xml
