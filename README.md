@@ -13,6 +13,14 @@ step1 python preprocess.py
 
     先在parameter.py中配置文件路径
     
+      -data
+         
+         -origin-data
+               
+               -ct
+               
+               -seg
+    
     
 
 
