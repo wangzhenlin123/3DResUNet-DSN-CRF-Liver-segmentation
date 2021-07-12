@@ -9,18 +9,23 @@ How to use it?
 
 
 
-step1 python preprocess.py
+step1 python preprocess.py(先在parameter.py中配置文件路径)
 
-    先在parameter.py中配置文件路径
-    
-      -data
-         
-         -origin-data
-               
-               -ct
-               
-               -seg
-    
+      data
+         origin-data
+              ct
+               volume-0.nii
+               ......
+               seg
+               segmentation-0.nii
+               ......
+         fixed-data
+              ct
+               volume-0.nii
+               ......
+               seg
+               segmentation-0.nii
+               ......
     
 
 
@@ -31,3 +36,5 @@ step3 python test.py
 
 
 step4  python 2D-CRF.py or 3D-CRF.py
+
+visual result: MITK、ITK-SNAP、Seg3D
