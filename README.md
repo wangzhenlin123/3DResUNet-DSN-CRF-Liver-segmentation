@@ -16,14 +16,14 @@ step1 python preprocess.py(先在parameter.py中配置文件路径)
               ct
                volume-0.nii
                ......
-               seg
+              seg
                segmentation-0.nii
                ......
          fixed-data
               ct
                volume-0.nii
                ......
-               seg
+              seg
                segmentation-0.nii
                ......
     
